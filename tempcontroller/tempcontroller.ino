@@ -35,14 +35,15 @@ void setup()
   BT.println("Welcome to SmarTemp");
  
  tempKnob.attach(servoPin);
+ tempKnob.write(20);
 }
 
 // const char personA[] = "Elfin";
 // const char personB[] = "Crackers";
 // const char off[] = "off";
 const int offSetting = 0;
-const int personASetting = 120;
-const int personBSetting = 50;
+const int personASetting = 80;
+const int personBSetting = 140;
 
 void loop() 
 {
